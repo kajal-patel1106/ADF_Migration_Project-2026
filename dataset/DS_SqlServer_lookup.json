@@ -2,11 +2,12 @@
 	"name": "DS_SqlServer_lookup",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "LS_SqlServerlookup",
+			"referenceName": "LS_SqlServer_lookup",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
 		"type": "SqlServerTable",
 		"schema": []
-	}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
 }
