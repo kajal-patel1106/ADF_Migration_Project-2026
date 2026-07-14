@@ -78,9 +78,13 @@
 									"partitionOption": "None"
 								},
 								"sink": {
-									"type": "SqlServerSink",
-									"writeBehavior": "insert",
-									"sqlWriterUseTableLock": false
+									"type": "ParquetSink",
+									"storeSettings": {
+										"type": "AzureBlobFSWriteSettings"
+									},
+									"formatSettings": {
+										"type": "ParquetWriteSettings"
+									}
 								},
 								"enableStaging": false,
 								"translator": {
@@ -110,7 +114,7 @@
 							],
 							"outputs": [
 								{
-									"referenceName": "DS_Parquet_SQLserver_DW",
+									"referenceName": "DS_SQLTable_Parquet",
 									"type": "DatasetReference"
 								}
 							]
@@ -131,6 +135,10 @@
 							},
 							"userProperties": [],
 							"typeProperties": {
+								"pipeline": {
+									"referenceName": "PL_ChilPipeline_Store_Procedure",
+									"type": "PipelineReference"
+								},
 								"waitOnCompletion": true
 							}
 						}
