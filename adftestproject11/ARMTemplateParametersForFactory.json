@@ -1,0 +1,117 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adftestproject11"
+		},
+		"ADLS_SQL_PARQUET_password": {
+			"value": ""
+		},
+		"ADLS_SQL_Parquet1_accountKey": {
+			"value": ""
+		},
+		"LS_AzureDataLakeStorage_Destination_accountKey": {
+			"value": ""
+		},
+		"LS_AzureDataLakeStorage_source_accountKey": {
+			"value": ""
+		},
+		"LS_Lookup_Filter_accountKey": {
+			"value": ""
+		},
+		"LS_SQLSERVER_DW_password": {
+			"value": ""
+		},
+		"LS_SQLServer_DW1_password": {
+			"value": ""
+		},
+		"LS_SqlServer_lookup_password": {
+			"value": ""
+		},
+		"LS_SqlServerlookup_password": {
+			"value": ""
+		},
+		"LS_filtertocopy_accountKey": {
+			"value": ""
+		},
+		"LS_getmetadat_filter_accountKey": {
+			"value": ""
+		},
+		"LS_onprem_SQL_password": {
+			"value": ""
+		},
+		"ADLS_SQL_PARQUET_properties_typeProperties_server": {
+			"value": "localhost"
+		},
+		"ADLS_SQL_PARQUET_properties_typeProperties_database": {
+			"value": "RetailDW_Dev"
+		},
+		"ADLS_SQL_PARQUET_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"ADLS_SQL_Parquet1_properties_typeProperties_url": {
+			"value": "https://adlsdestinationdatastore.dfs.core.windows.net/"
+		},
+		"LS_AzureDataLakeStorage_Destination_properties_typeProperties_url": {
+			"value": "https://adlsdestinationdatastore.dfs.core.windows.net/"
+		},
+		"LS_AzureDataLakeStorage_source_properties_typeProperties_url": {
+			"value": "https://adlssourcedatastore.dfs.core.windows.net/"
+		},
+		"LS_Lookup_Filter_properties_typeProperties_url": {
+			"value": "https://adlssourcedatastore.dfs.core.windows.net/"
+		},
+		"LS_SQLSERVER_DW_properties_typeProperties_server": {
+			"value": "localhost"
+		},
+		"LS_SQLSERVER_DW_properties_typeProperties_database": {
+			"value": "RetailDW_Dev"
+		},
+		"LS_SQLSERVER_DW_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"LS_SQLServer_DW1_properties_typeProperties_server": {
+			"value": "localhost"
+		},
+		"LS_SQLServer_DW1_properties_typeProperties_database": {
+			"value": "RetailDW_Dev"
+		},
+		"LS_SQLServer_DW1_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"LS_SqlServer_lookup_properties_typeProperties_server": {
+			"value": "localhost"
+		},
+		"LS_SqlServer_lookup_properties_typeProperties_database": {
+			"value": "RetailDW_Dev"
+		},
+		"LS_SqlServer_lookup_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"LS_SqlServerlookup_properties_typeProperties_server": {
+			"value": "localhost"
+		},
+		"LS_SqlServerlookup_properties_typeProperties_database": {
+			"value": "RetailDW_Dev"
+		},
+		"LS_SqlServerlookup_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"LS_filtertocopy_properties_typeProperties_url": {
+			"value": "https://adlsdestinationdatastore.dfs.core.windows.net/"
+		},
+		"LS_getmetadat_filter_properties_typeProperties_url": {
+			"value": "https://adlssourcedatastore.dfs.core.windows.net/"
+		},
+		"LS_onprem_SQL_properties_typeProperties_server": {
+			"value": "localhost"
+		},
+		"LS_onprem_SQL_properties_typeProperties_database": {
+			"value": "RetailDW_Dev"
+		},
+		"LS_onprem_SQL_properties_typeProperties_userName": {
+			"value": "sa"
+		}
+	}
+}
