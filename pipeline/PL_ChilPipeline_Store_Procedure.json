@@ -15,6 +15,7 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
+					"storedProcedureName": "[dbo].[UpdateWatermark]",
 					"storedProcedureParameters": {
 						"TableSchema": {
 							"value": {
@@ -38,6 +39,10 @@
 							"type": "String"
 						}
 					}
+				},
+				"linkedServiceName": {
+					"referenceName": "LS_onprem_SQL",
+					"type": "LinkedServiceReference"
 				}
 			}
 		],
