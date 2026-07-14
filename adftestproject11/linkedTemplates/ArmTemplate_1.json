@@ -741,7 +741,8 @@
 								"referenceName": "DS_SqlServer_lookup",
 								"type": "DatasetReference",
 								"parameters": {}
-							}
+							},
+							"firstRowOnly": false
 						}
 					},
 					{
@@ -761,6 +762,7 @@
 								"value": "@activity('LKUP_SQLTABLE_WATRMARK_DW').output.value",
 								"type": "Expression"
 							},
+							"isSequential": false,
 							"activities": [
 								{
 									"name": "EXE_SQL_INCREMENTAL",
