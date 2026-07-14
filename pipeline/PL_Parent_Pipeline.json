@@ -41,7 +41,13 @@
 						]
 					}
 				],
-				"userProperties": []
+				"userProperties": [],
+				"typeProperties": {
+					"items": {
+						"value": "@activity('LKUP_SQLTABLE_WATRMARK_DW').output.value",
+						"type": "Expression"
+					}
+				}
 			}
 		],
 		"annotations": [],
