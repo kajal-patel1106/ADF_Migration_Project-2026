@@ -46,7 +46,25 @@
 					"items": {
 						"value": "@activity('LKUP_SQLTABLE_WATRMARK_DW').output.value",
 						"type": "Expression"
-					}
+					},
+					"activities": [
+						{
+							"name": "EXE_SQL_INCREMENTAL",
+							"type": "ExecutePipeline",
+							"dependsOn": [],
+							"policy": {
+								"secureInput": false
+							},
+							"userProperties": [],
+							"typeProperties": {
+								"pipeline": {
+									"referenceName": "PL_ChilPipeline_Incremental",
+									"type": "PipelineReference"
+								},
+								"waitOnCompletion": true
+							}
+						}
+					]
 				}
 			}
 		],
