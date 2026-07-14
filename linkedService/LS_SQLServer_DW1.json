@@ -1,0 +1,21 @@
+{
+	"name": "LS_SQLServer_DW1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "localhost",
+			"database": "RetailDW_Dev",
+			"encrypt": "optional",
+			"trustServerCertificate": true,
+			"authenticationType": "SQL",
+			"userName": "sa",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIxMTU5NWE5My1kZDA1LTRkODAtOTdkYS1hM2U4ZjA0YmYyZjciLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "SelfHostedintegrationRuntime",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
