@@ -71,10 +71,6 @@
 										"value": "@item().TableName",
 										"type": "Expression"
 									},
-									"WatermarColumn": {
-										"value": "@item().WatermarkColumn",
-										"type": "Expression"
-									},
 									"LastLoadValue": {
 										"value": "@item().LastLoadValue",
 										"type": "Expression"
